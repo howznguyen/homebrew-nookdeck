@@ -1,4 +1,4 @@
-cask "nookdeck" do
+cask "nookdeck-app" do
   version "0.4.0"
   sha256 "fefd056c9852dfea79d946f662d101dc92d1a2b545120bfe68d3453ecbee0a2b"
 

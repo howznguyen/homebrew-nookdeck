@@ -5,7 +5,7 @@
 ## The menu bar app
 
 ```sh
-brew install --cask howznguyen/nookdeck/nookdeck
+brew install --cask howznguyen/nookdeck/nookdeck-app
 ```
 
 Open Nookdeck from Applications: it starts Nookdeck, shows the pairing QR and opens the management page.
