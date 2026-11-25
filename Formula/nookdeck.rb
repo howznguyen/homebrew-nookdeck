@@ -1,17 +1,17 @@
 class Nookdeck < Formula
   desc "Turn an old phone into a Stream Deck-style control panel for your computer"
   homepage "https://nookdeck.app"
-  version "0.4.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/howznguyen/nookdeck/releases/download/v#{version}/nookdeck-darwin-arm64"
-      sha256 "bec73277b76ec1ef848766f5d7af71bc0c88ddf1894aa7499043e5bce3f97089"
+      sha256 "9e65fd80e66feb099d108382cf8ebd3d334af0df7126c0a7aa2bb6884f7c334f"
     end
     on_intel do
       url "https://github.com/howznguyen/nookdeck/releases/download/v#{version}/nookdeck-darwin-x64"
-      sha256 "a8392d94bd90a702b050f2eb775bd67add5a8a62a63902d9f89a55c6a0841f9c"
+      sha256 "5b4a260fd4e19aad75bff06c916a51ee11cbc48bc2aa4aedb9a9b670c5014918"
     end
   end
 
