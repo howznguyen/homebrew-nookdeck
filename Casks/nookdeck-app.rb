@@ -1,6 +1,6 @@
 cask "nookdeck-app" do
-  version "0.5.2"
-  sha256 "f29585212ae072318209970a5948642b37ab972d9a1c1a027f66738f50199c55"
+  version "0.6.0"
+  sha256 "d0b8ce44146514dac953391d49766b1fead3d99a7fd52ee5389ac93c6ab912f1"
 
   url "https://github.com/howznguyen/nookdeck/releases/download/v#{version}/Nookdeck.dmg"
   name "Nookdeck"
@@ -12,6 +12,7 @@ cask "nookdeck-app" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "Nookdeck.app"
