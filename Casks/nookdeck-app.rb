@@ -1,6 +1,6 @@
 cask "nookdeck-app" do
-  version "0.7.2"
-  sha256 "9d5f717ecdc94331d8f15e3951b78aa2ef62fda4cfd6baac938c1aeeefddc7a5"
+  version "0.7.3"
+  sha256 "964a1390f8f41b853913e70e7153a5e7c29c29c31384b0ba3abbca1b862eb73a"
 
   url "https://github.com/howznguyen/nookdeck/releases/download/v#{version}/Nookdeck.dmg"
   name "Nookdeck"
